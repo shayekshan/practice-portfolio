@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Header and navigation style */
+.nav-tittle {
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.text-primary {
+    color: rgb(9, 193, 226);
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: darkcyan;
+    color: white;
+}
+
+.header {
+    background: rgb(255, 255, 255);
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.banner-tittle {
+    font-weight: 7;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+}
+
+.banner-sub-tittle {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.banner-description {
+    color: rgb(86, 195, 182);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about {
+    margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 10PX;
+    padding: 130PX 150PX;
+    text-align: center;
+}
+
+.section-tittle {
+    margin-bottom: 30PX;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-tittle {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
