@@ -38,8 +38,8 @@ nav ul {
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
-    height: 64px;
-    border-radius: 5px;
+    height: 60px;
+    border-radius: 10px;
     background: darkcyan;
     color: white;
 }
@@ -185,4 +185,28 @@ section {
 .resume-btn {
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact style's */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-tittle {
+    text-align: left;
+}
+
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a {
+    text-decoration: none;
 }
